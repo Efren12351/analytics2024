@@ -36,7 +36,11 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+nav ul li {
+    display: inline-block;
+    position: relative; /* Necessary for positioning the dropdown */
+    margin: 0 10px;
+}
 blockquote, q {
 	quotes: none;
 }
