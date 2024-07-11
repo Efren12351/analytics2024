@@ -21,6 +21,9 @@ nav ul {
     text-align: center;
     background: #333;
     font-size: 1.5em;
+    position: fixed; /* Fixes the nav position */
+    width: 100%; /* Makes the nav full width */
+    top: 0; /* Positions the nav at the top */
 }
 
 nav ul li {
@@ -34,7 +37,7 @@ nav ul li a {
 }
 
 main {
-    padding: 1em;
+    padding: 5em 1em; /* Adds padding to avoid content being hidden behind the fixed nav */
 }
 
 section {
