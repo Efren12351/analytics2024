@@ -2987,6 +2987,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		padding: 5px 10px;
+		z-index: 1; /* Add this line to ensure the link is on top of the animation */
 	  }
 	  
 	  .box-animation:before {
@@ -2998,6 +2999,7 @@ input, select, textarea {
 		height: 0;
 		background-color: rgba(255, 255, 255, 0.2);
 		transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+		z-index: -1; /* Add this line to ensure the animation is behind the link */
 	  }
 	  
 	  .box-animation:hover:before {
