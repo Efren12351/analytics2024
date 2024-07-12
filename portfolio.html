@@ -44,10 +44,31 @@
 					<div class="row aln-center">
 						<div class="col-4 col-12-medium">
 							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3> PROJECT TITLE</h3>
-								<p>PROJECT DESCRIPTION</p>
-								<h3><a href="#">PROJECT LINK</a></h3>
+								<body>
+                                    <video id="myVideo" autoplay loop muted style="width: 100%; height: auto;">
+                                      <source src="Dashboard Adidas Sales.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                    </video>
+                                  
+                                    <script>
+                                      document.getElementById('myVideo').addEventListener('click', function() {
+                                        const video = document.getElementById('myVideo');
+                                        if (video.requestFullscreen) {
+                                          video.requestFullscreen();
+                                        } else if (video.mozRequestFullScreen) { // Firefox
+                                          video.mozRequestFullScreen();
+                                        } else if (video.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+                                          video.webkitRequestFullscreen();
+                                        } else if (video.msRequestFullscreen) { // IE/Edge
+                                          video.msRequestFullscreen();
+                                        }
+                                      });
+                                    </script>
+                                  </body>
+                                  
+								<h3> ADIDAS SALES DASHBOARD</h3>
+								<p>I created a dashboard for the year 2020 and 2021 Adidas Sales</p>
+								<h3><a href="https://github.com/Efren12351/Project-Portfolio/blob/main/Raw%20data%20of%20Adidas%20Sales.xlsx">PROJECT LINK RAW FILE</a></h3>
 							</section>
 						</div>
 						<div class="col-4 col-12-medium">
@@ -156,3 +177,4 @@
 
 	</body>
 </html>
+
