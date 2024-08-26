@@ -41,39 +41,56 @@
 			<section id="highlights" class="wrapper style3">
 				<div class="title">BASIC</div>
 				<div class="container">
-					<div class="row aln-center" style="display: flex; justify-content: space-between; align-items: flex-start;">
-						<div class="col-4 col-12-medium" style="display: flex; flex-direction: column; align-items: center;">
-							<section class="highlight" style="text-align: center;">
-								<video id="myVideo" autoplay loop muted style="width: 100%; height: auto;">
-									<source src="Dashboard Adidas Sales.mp4" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
-								<h3 style="margin-top: 20px;">ADIDAS SALES DASHBOARD</h3>
-								<p>I created a dashboard for the year 2020 and 2021 Adidas Sales, using Microsoft Excel with its VLOOKUP function, pivot table, INDEX-MATCH, and some complex formulas.</p>
+					<div class="row aln-center">
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<body>
+                                    <video id="myVideo" autoplay loop muted style="width: 100%; height: auto;">
+                                      <source src="Dashboard Adidas Sales.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                    </video>
+                                  
+                                    <script>
+                                      document.getElementById('myVideo').addEventListener('click', function() {
+                                        const video = document.getElementById('myVideo');
+                                        if (video.requestFullscreen) {
+                                          video.requestFullscreen();
+                                        } else if (video.mozRequestFullScreen) { // Firefox
+                                          video.mozRequestFullScreen();
+                                        } else if (video.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+                                          video.webkitRequestFullscreen();
+                                        } else if (video.msRequestFullscreen) { // IE/Edge
+                                          video.msRequestFullscreen();
+                                        }
+                                      });
+                                    </script>
+                                  </body>
+                                  
+								<h3> ADIDAS SALES DASHBOARD</h3>
+								<p>I created a dashboard for the year 2020 and 2021 Adidas Sales, using Microsoft Excel with it's vlookup function, pivot table, index- match and some complex formulas.</p>
 								<h3><a href="https://github.com/Efren12351/Project-Portfolio/blob/main/Raw%20data%20of%20Adidas%20Sales.xlsx">PROJECT LINK RAW FILE</a></h3>
 							</section>
 						</div>
-			
-						<div class="col-4 col-12-medium" style="display: flex; flex-direction: column; align-items: center;">
-							<section class="highlight" style="text-align: center;">
-								<a class="image featured"><img src="Google Capstone.png" alt="Google Capstone" /></a>
-								<h3 style="margin-top: 20px;">GOOGLE DATA ANALYTICS CAPSTONE PROJECT</h3>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
 								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-								<h3><a href="https://github.com/Efren12351/Project-Portfolio/blob/main/Raw%20data%20of%20Adidas%20Sales.xlsx">PROJECT LINK RAW FILE</a></h3>
-							</section>
-						</div>
-			
-						<div class="col-4 col-12-medium" style="display: flex; flex-direction: column; align-items: center;">
-							<section class="highlight" style="text-align: center;">
+								<ul class="actions">
+									<h3><a href="https://github.com/Efren12351/Project-Portfolio/blob/main/Raw%20data%20of%20Adidas%20Sales.xlsx">PROJECT LINK RAW FILE</a></h3>
+								</section>
+												</div>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
 								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3 style="margin-top: 20px;"><a href="#">MATTIS TEMPUS LOREM</a></h3>
+								<h3><a href="#">Mattis tempus lorem</a></h3>
 								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+								
 							</section>
 						</div>
 					</div>
 				</div>
 			</section>
-			
+
 			<!-- Highlights -->
 				<section id="highlights" class="wrapper style3">
 					<div class="title">INTERMEDIATE</div>
